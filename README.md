@@ -1,1 +1,1 @@
-# -yii2-elfinder
+# yii2-elfinder
