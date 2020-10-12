@@ -1,0 +1,31 @@
+{
+    "name": "ramprasadm1986/yii2-elfinder",
+    "keywords": ["yii", "elfinder", "filemanager"],
+    "description": "Yii2 ElFinder",
+    "homepage": "https://github.com/ramprasadm1986/yii2-elfinder",
+    "type": "yii2-extension",
+    "license": "Apache-2.0",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Ramprasad",
+            "email": "ramprasad@krititech.in",
+            "homepage": "https://github.com/ramprasadm1986",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ramprasadm1986\\elfinder\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.13",
+        "yiisoft/yii2-jui": "*",
+        "studio-42/elfinder": "^2.1.10"
+    },
+    "extra": {
+      "asset-installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
+    }
+}
