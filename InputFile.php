@@ -113,6 +113,11 @@ class InputFile extends InputWidget{
             
             $replace['{input}'] = Html::activeTextInput($this->model, $this->attribute, $this->options);
 		} else {
+            
+           
+           
+                $replace['{image}'] = '<img  alt="No Image" id="' . $this->options['id'] . '-thumb" class="thumbnail" src="' .$this->value . '" style="display: table-cell;height: 80px;width: 80px;vertical-align: middle;text-align: center;max-width: 80px; max-height: 80px;margin:0px;" />';
+           
 			$replace['{input}'] = Html::textInput($this->name, $this->value, $this->options);
 		}
 
